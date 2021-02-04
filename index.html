@@ -84,7 +84,7 @@
                   <div class="col s12">
                     <div class="home-inner">
                       <h1 class="home-title"> Welcome! </h1>
-                      <p>I'm a <span>Machine Learning Engineer</span> and a <span>Learning Engineer</span> improving <span>human learning</span> by combining computer science with instructional design and learning science</p>
+                      <p>I'm a <span>data scientist</span> and a <span>learning engineer</span> improving <span>human learning</span> by combining computer science with educational design and learning science</p>
                       <!-- <a class="hire-me-btn btn waves-effect waves-light btn-large" href="#footer">Hire Me <i class="mdi-content-send left"></i>                     
                       </a> -->
                       <!-- Call to About Button -->
@@ -127,8 +127,8 @@
                           
                           <h3>About</h3>
                           
-                          <p>I have been implementing several Machine Learning projects in both academic and professional settings, and I'm motivated by improving how people learn thanks to Technology. I am interested in any type of learning, with a preference for language. I specialized in Natural Language Processing algorithms that find themselves useful in all learning contexts (course material, questions/answers, language learning, etc.).</p>
-                          <p>The two masters I graduate from: <i>Master of Science and Engineering</i> from <a href="https://www.centralesupelec.fr/en/school-0">CentraleSupelec</a>, and the <i>Master of Educational Technology and Applied Learning Science</i> of <a href="https://metals.hcii.cmu.edu/">Carnegie Mellon University</a> give me a better understanding of the upsides and limitations of technology applied to learning.</p>
+                          <p>I implemented several Machine Learning projects in both academic and professional settings, and I'm motivated by improving how people learn thanks to Technology. I am interested in any type of learning, with a preference for language. I specialized in Natural Language Processing algorithms that find themselves useful in all learning contexts (course material, questions/answers, language learning, etc.).</p>
+                          <p>The two masters I graduate from: <i>Master of Science and Engineering</i> (June 2021) from <a href="https://www.centralesupelec.fr/en/school-0">CentraleSupelec</a>, and the <i>Master of Educational Technology and Applied Learning Science</i> (August 2021) of <a href="https://metals.hcii.cmu.edu/">Carnegie Mellon University</a> give me a better understanding of the upsides and limitations of technology applied to learning.</p>
                           
                           <p>My background in theoretical math and engineering provided me with the relevant skills to improve machine learning algorithms. I then focused on applying these skills to human learning at Carnegie Mellon University, at the intersection of computer science, instructional design and learning science. To illustrate, I designed an online course in Geography following evidence-based e-learning design principles. I worked as a data consultant in a research project at CMU, aiming at empowering low-resource Ivoirian teachers with an accessible chatbot.</p>
                           <p>I'm excited to apply my skills to improve existing learning solutions or design new ones.</p>
@@ -164,22 +164,41 @@ Calyps S.A, Sion, Switzerland
                         <div>
                           <ul>
                             
-                            <li><span> <b> Machine Learning Engineer Intern, 03/2020 – 08/2020</b> </span>
-                              <p>During this 5-month internship in Switzerland at <b><a href="https://www.calyps.ch/language/en/">CALYPS SA</a></b>, I designed and implemented a patients’ hospital stays <b>automatized codification SaaS</b> to improve operational costs, codification efficiency and reliability.</p>
-                              <div>I ran the automatic codification with a classification model I developed and fine-tuned on <b>30K+ natural language medical notes</b> with 400+ target classes, using state-of-the-art NLP and achieving a <b>60%</b> accuracy.</div>
-                              <div>Finally, I ran the operational implementation of the SaaS for an external client.</div>
-                              <p><i>Deep Learning, BERT (camembert), Python, PyTorch, MySQL, Team-based project</i></p>
+                            <li><span onclick="openExp('myExp')" style="cursor: pointer;"> <b> Machine Learning Engineer Intern, 03/2020 – 08/2020</b> </span>
+
+                              <div id="myExp" style="display: none">
+                                
+                                <p>During this 5-month internship in Switzerland at <b><a href="https://www.calyps.ch/language/en/">CALYPS SA</a></b>, I designed and implemented a patients’ hospital stays <b>automatized codification SaaS</b> to improve operational costs, codification efficiency and reliability.</p>
+                                <div>I ran the automatic codification with a classification model I developed and fine-tuned on <b>30K+ natural language medical notes</b> with 400+ target classes, using state-of-the-art NLP and achieving a <b>60%</b> accuracy.</div>
+                                <div>Finally, I ran the operational implementation of the SaaS for an external client.</div>
+                                <p><i>Deep Learning, BERT (camembert), Python, PyTorch, MySQL, Team-based project</i></p>
+
+                              </div>
+
                             </li>
   
-                            <li><span> <b> Carnegie Mellon University: <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, Fall 2020</b> </span>
+                            <li><span onclick="openExp('cmu_exp')" style="cursor: pointer;"> <b> Carnegie Mellon University: <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, Fall 2020</b> </span>
+
+                              <div id="cmu_exp" style="display: none">
+
                               <p>During the Fall semester, I have been learning about <b>Instructional Design</b>, which is a set of methodologies to develop aligned learning goals, assessment and instruction. </p>
                               <p>For a Personalized Online Learning class, I designed and implemented digital online <b>cognitive tutors</b> to build adaptive educational courses in Geography. <i>JavaScript, nools</i></p>
                               <p>I joined a semester-long <b><a href="https://seme-cmu.github.io/seme-web/?v=2">research project</a></b> aiming at providing tools for low-resourced Ivoirian teachers. I extracted valuable insights from a <b>SQL database</b> storing chatbot conversational metadata to refine interaction design and for usage visualization. <i>Python, numpy, seaborn, sqlite</i> </p>
+
+                              </div>
+
                             </li>
 
-                            <li><span> <b> Cognitive Science: Research Intern at ENS, Paris, at the <a href="https://lscp.dec.ens.fr/en">Lab of Cognitive Science and Psycholinguistics</a>, 09/2019 – 01/2020</b> </span>
+                            <li><span onclick="openExp('lscp_exp')" style="cursor: pointer;"> 
+                            <b> Cognitive Science: Research Intern at ENS, Paris, at the <a href="https://lscp.dec.ens.fr/en">Lab of Cognitive Science and Psycholinguistics</a>, 09/2019 – 01/2020</b> </span>
+
+                              <div id="lscp_exp" style="display: none">
+
                               <p>I ran an observational study on a 30K+ Junior High School student cohort to identify grade repetition's effects on learning. <i>Statistical Analysis, R</i></p>
                               <div>Thank to this research internship, I learned about research methodologies and research studies' design. I gained a strong understanding of research protocols and procedures in an interdisciplinary team.</div>
+
+                             </div>
+
                             </li>
                             
                           </ul>
@@ -267,7 +286,7 @@ Calyps S.A, Sion, Switzerland
    
                   <ul>
                     
-                    <li>
+                    <li style="border-top: 2px solid #2c3c2f">
                       <span> <b> Data Scientist at <a href="https://seme-cmu.github.io/seme-web/?v=2">SEME</a> </b> </span>
                       <p> As a research intern at SEME, I analyzed conversational data and metadata from a chatbot to refine its design. The project, ran jointly with an NGO, aims at helping Ivory Coast primary school teachers fulfill their work aspirations and adopt better teaching methods with support from the community. <p>
 
@@ -283,7 +302,7 @@ Calyps S.A, Sion, Switzerland
                       <p><i>Python, sklearn, seaborn, pandas</i></p>
                     </li>
                     
-                    <li>
+                    <li style="border-bottom: 0px solid #2c3c2f">
                       <span> <b> AI Self-driving car, Convolutional Neural Networks </b> </span>
                       <p>For a two-person semester <a href="https://github.com/BaptisteMP/AIRobotCar">project</a>, I designed and built a neural network-driven Arduino autonomous car. My role in the project mainly focused on developing and fine-tuning Convolutional NN to drive the car along a curved line, using floor pictures for in-time direction prediction (picture classification). I also helped program the Raspberry Pi 3 using Debian, the Pi was carried on the car together with a camera and an electrical engine with batteries.</p>
                       <p><i>Raspberry Pi 3, Arduino, Python, Keras</i></p>
@@ -291,11 +310,11 @@ Calyps S.A, Sion, Switzerland
                     
                     
               
-                    <li>
+<!--                     <li style="border-bottom: 0px solid #2c3c2f">
                       <span> <b> <a href="https://www.universite-paris-saclay.fr/en">Université Paris-Saclay</a>, CentraleSupelec Engineering School, 2017 - 2020</b> </span>
                       <div>Overall GPA: <i>3.73/4</i></div>
                       <div>I gained a strong understanding in Math (algebra, analysis, statistics, probabilities) & Physics, Machine Learning, Software, Economics basics</div>
-                    </li>
+                    </li> -->
                   </ul>
 
                 </div>
@@ -477,6 +496,18 @@ Calyps S.A, Sion, Switzerland
       <script src="js/jquery.counterup.min.js"></script>     
 
       <!-- Custom Js -->
-      <script src="js/custom.js"></script>      
+      <script src="js/custom.js"></script>
+
+      <script>
+      function openExp(id) {
+        var x = document.getElementById(id);
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
+
     </body>
   </html>
