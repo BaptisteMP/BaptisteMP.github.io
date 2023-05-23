@@ -5619,7 +5619,7 @@ small {
   display: inline-block;
   color: #FFF;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   z-index: 1;
   width: 37px;
   height: 37px;
@@ -5688,10 +5688,11 @@ button.btn-floating {
   min-width: 100px;
   max-height: 650px;
   overflow-y: auto;
+  /*overflow: visible;*/
   opacity: 0;
-  position: absolute;
+  position: relative;
   white-space: nowrap;
-  z-index: 1;
+  z-index: 10;
   will-change: width, height; }
   .dropdown-content li {
     clear: both;
@@ -5705,7 +5706,7 @@ button.btn-floating {
       background-color: #eee; }
     .dropdown-content li > a, .dropdown-content li > span {
       font-size: 1.2rem;
-      color: #26a69a;
+      color: white;
       display: block;
       padding: 1rem 1rem; }
 
