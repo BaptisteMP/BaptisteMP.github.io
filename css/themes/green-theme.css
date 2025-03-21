@@ -10,11 +10,13 @@ Author URI : http://www.markups.io/
 #58795e	(88,121,94) */
 
 a {
-  color: #94ca9d;
+  /* color: #94ca9d; */
+  color: black;
 }
 
 .navbar-fixed nav {
   background-color:#58795e;
+  /* background-color:#94ca9d; */
 }
 
 
@@ -105,7 +107,8 @@ nav .brand-logo {
   color: #3fc35f;
 }
 .footer-top{
-  background-color:#2c3c2f; 
+  /* background-color:#2c3c2f; */
+  background-color:#58795e; 
 }
 input[type="text"]:focus:not([readonly]) + label,
 input[type="password"]:focus:not([readonly]) + label,
