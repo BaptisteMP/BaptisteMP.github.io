@@ -252,6 +252,13 @@ nav .brand-logo img {
   height: 100%;
 }
 
+.banner-img {
+  margin: 0 auto;
+  width: 60%;
+  height: 100%;
+  align-items: center;
+}
+
 .about-inner-right{ 
   min-height: 250px;
   display: inline;
